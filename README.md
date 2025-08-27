@@ -47,130 +47,132 @@ Descriptive statistics of the dataset are generated to summarize key metrics lik
 
 **12. Heart Disease Count:**
 
-Bar plot showing number of patients with and without heart disease; clearly indicates prevalence.
+A countplot was used to compare the number of patients with and without heart disease. This gives a quick idea of dataset balance.
 
 <img width="640" height="480" alt="Heart disease incidence" src="https://github.com/user-attachments/assets/3b7ef27f-4072-4ec9-9014-fb5ccd0bd819" />
 
 **13. Count of Male and Female:**
 
-Countplot of gender distribution; helps understand dataset gender balance.
+A countplot was created to show the number of male and female patients. This helps understand gender representation in the dataset.
 
 <img width="640" height="480" alt="Gender Distribution" src="https://github.com/user-attachments/assets/1642a596-ab6b-4c9b-81ed-240b13b78165" />
 
-**14. Age Distribution:**
+**14. Age Distribution of Patients:**
 
-Histogram of patient ages; shows which age ranges are most common in dataset.
+A histogram was plotted to show the distribution of patient ages. It highlights which age ranges have the most patients.
 
 <img width="640" height="480" alt="age distribution" src="https://github.com/user-attachments/assets/4ac5da59-7c5f-48d1-9cc4-922f100ad6a0" />
 
-**15. Gender Distribution According to Target:**
+**15. Gender Distribution According to Target Variable**
 
-Stacked barplot of gender vs heart disease; shows male/female risk differences.
+A countplot with `hue=target` was used to compare males and females across heart disease and non-heart disease groups.
 
 <img width="640" height="480" alt="Gender Distribution According to heart disease" src="https://github.com/user-attachments/assets/94e0193e-0397-451d-b0c4-ab7c7439485c" />
 
 **16. Age Group with Highest Heart Disease:**
 
-Barplot of age groups vs heart disease count; identifies high-risk age ranges.
+Age was divided into bins (20–29, 30–39, etc.), and a countplot showed heart disease occurrence across groups. This reveals age-based risk.
 
 <img width="640" height="480" alt="age group distribution heart disease" src="https://github.com/user-attachments/assets/f05555ee-ac62-4d7d-9d01-bd0e099ec125" />
 
 **17. Cholesterol Level Differences:**
 
-Boxplot of cholesterol by heart disease; highlights higher levels in affected patients.
+Cholesterol values were grouped into ranges, and a countplot was plotted. It shows how cholesterol levels differ between patients with and without disease.
 
 <img width="640" height="480" alt="cholesterol level" src="https://github.com/user-attachments/assets/62711941-1f58-49e0-a7a8-2db446d27989" />
 
 **18. Resting Blood Pressure Differences:**
 
-Boxplot of resting BP for both groups; shows variation between healthy and diseased.
+Blood pressure was grouped into categories (Normal, High, etc.) and compared with target values using a countplot. It highlights blood pressure patterns.
 
 <img width="640" height="480" alt="Resting blood pressure" src="https://github.com/user-attachments/assets/eac1c312-d645-4172-8a51-efbb065ace69" />
 
 **19. Fasting Blood Sugar Relation:**
 
-Countplot of high FBS (>120 mg/dl) vs heart disease; indicates higher risk correlation.
+A countplot was used to compare patients with fasting blood sugar >120 mg/dl against heart disease. This helps assess diabetes-related risks.
 
 <img width="640" height="480" alt="fasting blood sugar" src="https://github.com/user-attachments/assets/9beb1929-4f60-4cd9-9e1e-9cef79f082c3" />
 
 **20. Chest Pain Frequency Differences:**
-Countplot of chest pain types by heart disease; shows specific pain types more associated.
+
+A countplot was used to analyze chest pain categories. This shows which chest pain types are most linked to heart disease.
 
 <img width="640" height="480" alt="chest pain" src="https://github.com/user-attachments/assets/487726f2-0566-4618-bcf1-39f7e3c50751" />
 
 **21. Maximum Heart Rate and Heart Disease Risk:**
 
-A scatter or boxplot showing maximum heart rate, highlighting whether lower or higher rates relate to heart disease.
+A boxplot compared maximum heart rate across target groups. It reveals whether higher or lower heart rates are related to disease.
 
 <img width="800" height="600" alt="Maximum Heart Rate" src="https://github.com/user-attachments/assets/31f2de9e-46fe-4477-a94b-8ce11efa0257" />
 
-**22. Exercise-Induced Chest Pain:**
+**22. Exercise-Induced Angina vs Heart Disease:**
 
-A countplot examining chest pain during exercise, indicating increased likelihood of heart disease among affected patients.
+A countplot analyzed the effect of exercise-induced angina on heart disease. This highlights exercise-related heart strain patterns.
 
 <img width="640" height="480" alt="Exercise-Induced Chest Pain" src="https://github.com/user-attachments/assets/679098ba-f03f-44b7-b282-e99e49c0416c" />
 
 **23. “Oldpeak” (ST Depression) Relation:**
 
-A boxplot showing ST depression values (“oldpeak”) by heart disease status, reflecting exercise-induced cardiac stress.
+A histogram compared oldpeak values for both groups. This shows how ST depression measurements differ in patients with and without disease.
 
 <img width="640" height="480" alt="Oldpeak" src="https://github.com/user-attachments/assets/67560eb1-26be-48ef-a523-8de1b19d31a0" />
 
 **24. Resting ECG Result Differences:**
 
-A countplot comparing resting ECG results for patients with and without heart disease, identifying potential diagnostic patterns.
+A countplot compared ECG results with target values. It helps analyze the effect of abnormal ECG patterns on disease.
 
 <img width="640" height="480" alt="Resting ECG" src="https://github.com/user-attachments/assets/59732f03-adbf-44ec-9096-f0a8f5cf871e" />
 
 **25. Slope of Peak Exercise ST Segment:**
 
-A barplot illustrating the relationship between ST segment slope during peak exercise and heart disease occurrence.
+A countplot checked slope categories against target. This helps visualize exercise test results related to heart risk.
 
 <img width="640" height="480" alt="Slope of Peak Exercise" src="https://github.com/user-attachments/assets/f7f7f35e-b251-43f7-a739-8d465a6967ae" />
 
 **26. Thalassemia Types and Heart Disease:**
 
-A countplot evaluating different thalassemia (thal) types, highlighting their association with heart disease prevalence.
+We used a bar plot (countplot with percentages) to compare thalassemia (thal) types with heart disease occurrence.
 
 <img width="640" height="480" alt="Thalassemia" src="https://github.com/user-attachments/assets/fba8049a-207b-4338-9e9e-059d64237a95" />
 
 **27. Age and Cholesterol Combined Risk:**
 
-A scatterplot of age versus cholesterol, showing how higher values together may increase heart disease risk.
+A scatterplot compared age and cholesterol values with the target. This visual shows combined effects of age and cholesterol on heart disease.
 
 <img width="640" height="480" alt="Age and Cholesterol" src="https://github.com/user-attachments/assets/d2710066-e60b-4daf-9501-202d47c2c218" />
 
 **28. Sex and Chest Pain Type Influence:**
 
-A grouped barplot analyzing how gender and chest pain types jointly impact heart disease likelihood.
+A grouped countplot compared chest pain type and sex with heart disease. It helps understand gender-specific symptom differences.
 
 <img width="1057" height="500" alt="Sex and Chest Pain" src="https://github.com/user-attachments/assets/aa816761-9901-4823-9ccc-908c09f71737" />
 
 **29. Dataset Balance for Target Variable:**
 
-A bar chart showing distribution of the target variable, identifying whether the dataset is balanced or skewed.
+A countplot of the target column checked dataset balance. It shows if the dataset is balanced or imbalanced for prediction.
 
 <img width="640" height="480" alt="Balance for Target Variable" src="https://github.com/user-attachments/assets/20254f4c-932a-4c20-b015-8112f106451e" />
 
 **30. Features Most Strongly Correlated with Heart Disease:**
 
-A heatmap or correlation matrix highlighting features with strongest positive or negative correlations to heart disease.
+A barplot displayed correlation strength of features with the target. This highlights which features are most useful for prediction.
 
 <img width="800" height="500" alt="Correlated with Heart Disease" src="https://github.com/user-attachments/assets/4a34e455-503f-43e5-a61f-5f2fd9e5b63d" />
 
 **31. Distribution of Serum Cholesterol:**
 
-A histogram or boxplot showing serum cholesterol distribution across all patients in the dataset.
+A histogram was created to check cholesterol distribution. It shows how cholesterol values are spread among patients.
+
 <img width="640" height="480" alt="Serum Cholesterol" src="https://github.com/user-attachments/assets/5ace02c7-9e27-4e0f-b8c4-7b1ad3da3de4" />
 
 **32. Resting Blood Pressure Comparison by Sex:**
 
-Boxplots comparing resting blood pressure between male and female patients, highlighting sex-based differences.
+A KDE plot was used to compare resting blood pressure between males and females. It highlights gender-based BP differences.
 
 <img width="1200" height="300" alt="Resting Blood Pressure sex" src="https://github.com/user-attachments/assets/4c7ddfd4-9990-4d7e-a46e-ebc3bacbd386" />
 
 **33. Continuous Variables Plot:**
 
-Pairplots or histograms visualizing all continuous features, providing an overview of distributions and relationships.
+Histograms were plotted for all continuous variables in the dataset. This helps understand the overall distribution of numerical features.
 
 <img width="1536" height="754" alt="Continuous Variables Plot" src="https://github.com/user-attachments/assets/e76e60c8-41de-4286-80a3-0db4396a8d75" />
