@@ -1,5 +1,67 @@
 # Heart_disease_analysis using Python
 This project analyzes a heart disease dataset using Python with data cleaning, EDA, and visualizations. As part of my data science learning journey, the goal is to practice handling data, explore different graphs, and gain insights through real-world health data.
+
+**1. Import the Libraries and Dataset:**
+The project begins by importing essential Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn. The heart disease dataset is then loaded, providing the foundation for further exploration and analysis.
+
+**2. Display First 5 Rows:**
+The first five rows of the dataset are displayed to get an initial understanding of the data and its structure.
+
+**3. Display Last 5 Rows:**
+The last five rows are viewed to check data consistency and verify that the dataset has been loaded correctly.
+
+**4. Shape of Dataset:**
+The shape of the dataset is examined to identify the total number of rows and columns for a quick overview.
+
+**5. Display Number of Rows:**
+The total number of rows is calculated to understand how many data records are available for analysis.
+
+**6. Display Number of Columns:**
+The number of columns is displayed to know how many features or attributes exist in the dataset.
+
+**7. Display Column Names:**
+Column names are listed to understand the attributes available and plan which features to analyze.
+
+**8. Information About Dataset:**
+Dataset information is checked to review data types, non-null counts, and overall structure for proper preprocessing.
+
+**9. Check Null Values:**
+Null values are identified in each column to handle missing data before analysis and visualization.
+
+**10. Check and Drop Duplicated Values:**
+The dataset is checked for duplicate rows, and any duplicates found are removed to ensure data quality and accurate analysis.
+
+**11. Describe Dataset:**
+Descriptive statistics of the dataset are generated to summarize key metrics like mean, median, minimum, maximum, and standard deviation for numeric columns.
+
+
+**12. Heart Disease Count:**
+Bar plot showing number of patients with and without heart disease; clearly indicates prevalence.
+
+**13. Count of Male and Female:**
+Countplot of gender distribution; helps understand dataset gender balance.
+
+**14. Age Distribution:**
+Histogram of patient ages; shows which age ranges are most common in dataset.
+
+**15. Gender Distribution According to Target:**
+Stacked barplot of gender vs heart disease; shows male/female risk differences.
+
+**16. Age Group with Highest Heart Disease:**
+Barplot of age groups vs heart disease count; identifies high-risk age ranges.
+
+**17. Cholesterol Level Differences:**
+Boxplot of cholesterol by heart disease; highlights higher levels in affected patients.
+
+**18. Resting Blood Pressure Differences:**
+Boxplot of resting BP for both groups; shows variation between healthy and diseased.
+
+**19. Fasting Blood Sugar Relation:**
+Countplot of high FBS (>120 mg/dl) vs heart disease; indicates higher risk correlation.
+
+**20. Chest Pain Frequency Differences:**
+Countplot of chest pain types by heart disease; shows specific pain types more associated.
+
 **21. Maximum Heart Rate and Heart Disease Risk:**
 
 A scatter or boxplot showing maximum heart rate, highlighting whether lower or higher rates relate to heart disease.
