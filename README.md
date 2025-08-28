@@ -175,4 +175,6 @@ A KDE plot was used to compare resting blood pressure between males and females.
 
 Histograms were plotted for all continuous variables in the dataset. This helps understand the overall distribution of numerical features.
 
-<img width="1536" height="754" alt="Continuous Variables Plot" src="https://github.com/user-attachments/assets/e76e60c8-41de-4286-80a3-0db4396a8d75" />
+** 📌 Conclusion **
+
+This project systematically explored the heart disease dataset through data cleaning, visualization, and analysis. The findings reveal patterns in age, gender, cholesterol, blood pressure, and other health indicators linked to heart disease. Each step provided clear insights, building practical data analysis skills while highlighting key medical risk factors. The study serves as a foundation for deeper exploration and future predictive modeling.
